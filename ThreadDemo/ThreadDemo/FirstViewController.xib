@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController">
+            <connections>
+                <outlet property="imageView" destination="Yjc-i8-jzX" id="UEu-U0-iCE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yjc-i8-jzX">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ez-jJ-hVQ">
+                    <rect key="frame" x="20" y="540" width="560" height="40"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="0p9-Fg-AM2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                    <state key="normal" title="去买票(去看看线程同步)"/>
+                    <connections>
+                        <action selector="buyAction:" destination="-1" eventType="touchUpInside" id="4yv-cL-hfA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Yjc-i8-jzX" secondAttribute="trailing" id="29d-OD-UqY"/>
+                <constraint firstItem="Yjc-i8-jzX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Jwe-Mo-qpM"/>
+                <constraint firstAttribute="trailing" secondItem="9Ez-jJ-hVQ" secondAttribute="trailing" constant="20" id="a41-YD-yBg"/>
+                <constraint firstItem="Yjc-i8-jzX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bu3-1m-dBz"/>
+                <constraint firstAttribute="bottom" secondItem="9Ez-jJ-hVQ" secondAttribute="bottom" constant="20" id="c7p-C5-crK"/>
+                <constraint firstItem="9Ez-jJ-hVQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="e8G-Ne-cDS"/>
+                <constraint firstAttribute="bottom" secondItem="Yjc-i8-jzX" secondAttribute="bottom" id="gCK-5z-N4P"/>
+            </constraints>
+            <point key="canvasLocation" x="259" y="422"/>
+        </view>
+    </objects>
+</document>
