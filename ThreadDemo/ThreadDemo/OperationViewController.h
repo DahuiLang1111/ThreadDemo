@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  OperationViewController.h
 //  ThreadDemo
 //
 //  Created by HEXSZ on 16/3/22.
@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface OperationViewController : UIViewController
+
 
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 
-- (IBAction)buyAction:(id)sender;
+- (IBAction)backHomeAction:(id)sender;
 
-- (IBAction)toOperationAction:(id)sender;
 
 
 @end

@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "OperationViewController.h"
 
 #define kURL @"http://static.7192.com/upload/poco/2015/0805/211128GRknmfyv.jpeg"
 
@@ -62,5 +63,11 @@
 - (IBAction)buyAction:(id)sender {
     SecondViewController *secVC = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     [self presentViewController:secVC animated:YES completion:nil];
+}
+
+
+- (IBAction)toOperationAction:(id)sender {
+    OperationViewController *operVC = [[OperationViewController alloc] initWithNibName:@"OperationViewController" bundle:nil];
+    [self presentViewController:operVC animated:YES completion:nil];
 }
 @end
