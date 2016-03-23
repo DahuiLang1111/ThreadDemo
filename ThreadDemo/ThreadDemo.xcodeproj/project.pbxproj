@@ -20,6 +20,8 @@
 		43AFB4C61CA1370200099C9D /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AFB4C51CA1370200099C9D /* Back@2x.png */; };
 		43AFB4CA1CA1465800099C9D /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AFB4C81CA1465800099C9D /* OperationViewController.m */; };
 		43AFB4CB1CA1465800099C9D /* OperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43AFB4C91CA1465800099C9D /* OperationViewController.xib */; };
+		43E0547D1CA224CE0088DAD1 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0547B1CA224CE0088DAD1 /* GCDViewController.m */; };
+		43E0547E1CA224CE0088DAD1 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43E0547C1CA224CE0088DAD1 /* GCDViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,9 @@
 		43AFB4C71CA1465800099C9D /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
 		43AFB4C81CA1465800099C9D /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
 		43AFB4C91CA1465800099C9D /* OperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OperationViewController.xib; sourceTree = "<group>"; };
+		43E0547A1CA224CE0088DAD1 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		43E0547B1CA224CE0088DAD1 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		43E0547C1CA224CE0088DAD1 /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,7 @@
 		43AFB4B51CA120E400099C9D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				43E054791CA2249F0088DAD1 /* GCD */,
 				43AFB4CD1CA1467500099C9D /* NSOperation */,
 				43AFB4CC1CA1465F00099C9D /* NSThread */,
 			);
@@ -160,6 +166,16 @@
 				43AFB4C91CA1465800099C9D /* OperationViewController.xib */,
 			);
 			name = NSOperation;
+			sourceTree = "<group>";
+		};
+		43E054791CA2249F0088DAD1 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				43E0547A1CA224CE0088DAD1 /* GCDViewController.h */,
+				43E0547B1CA224CE0088DAD1 /* GCDViewController.m */,
+				43E0547C1CA224CE0088DAD1 /* GCDViewController.xib */,
+			);
+			name = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +238,7 @@
 				4391BE701C9FEFB20095F913 /* Assets.xcassets in Resources */,
 				43AFB4CB1CA1465800099C9D /* OperationViewController.xib in Resources */,
 				43AFB4C61CA1370200099C9D /* Back@2x.png in Resources */,
+				43E0547E1CA224CE0088DAD1 /* GCDViewController.xib in Resources */,
 				43AFB4BE1CA1240B00099C9D /* Default-568h@2x.png in Resources */,
 				43AFB4BC1CA1212600099C9D /* FirstViewController.xib in Resources */,
 				4391BE6E1C9FEFB20095F913 /* Main.storyboard in Resources */,
@@ -240,6 +257,7 @@
 				4391BE6B1C9FEFB20095F913 /* ViewController.m in Sources */,
 				4391BE681C9FEFB20095F913 /* AppDelegate.m in Sources */,
 				4391BE651C9FEFB20095F913 /* main.m in Sources */,
+				43E0547D1CA224CE0088DAD1 /* GCDViewController.m in Sources */,
 				43AFB4CA1CA1465800099C9D /* OperationViewController.m in Sources */,
 				43AFB4BB1CA1212600099C9D /* FirstViewController.m in Sources */,
 			);
