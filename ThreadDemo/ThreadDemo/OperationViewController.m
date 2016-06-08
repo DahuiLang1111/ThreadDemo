@@ -57,7 +57,7 @@
 }
 
 -(void) updateUI:(UIImage *)image {
-    [UIView animateWithDuration:2.0 animations:^{
+    [UIView animateWithDuration:1.0 animations:^{
         self.imageView.alpha = 1.0;
         self.imageView.image = image;
     }];
@@ -78,8 +78,4 @@
 }
 */
 
-- (IBAction)backHomeAction:(id)sender {
-    
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
 @end

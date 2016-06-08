@@ -60,7 +60,7 @@
     [threadOne cancel];
     [threadTwo cancel];
     [threadThree cancel];
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 -(void) run {

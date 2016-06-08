@@ -64,12 +64,12 @@
 
 - (IBAction)buyAction:(id)sender {
     SecondViewController *secVC = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
-    [self presentViewController:secVC animated:YES completion:nil];
+    [self.navigationController pushViewController:secVC animated:YES];
 }
 
 
 - (IBAction)toOperationAction:(id)sender {
     OperationViewController *operVC = [[OperationViewController alloc] initWithNibName:@"OperationViewController" bundle:nil];
-    [self presentViewController:operVC animated:YES completion:nil];
+    [self.navigationController pushViewController:operVC animated:YES];
 }
 @end

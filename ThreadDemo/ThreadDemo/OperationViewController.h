@@ -14,8 +14,5 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 
-- (IBAction)backHomeAction:(id)sender;
-
-
 
 @end

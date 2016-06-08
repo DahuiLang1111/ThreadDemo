@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController">
@@ -17,7 +17,6 @@
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTq-jG-FHY">
                     <rect key="frame" x="20" y="225" width="560" height="40"/>
-                    <animations/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="U4s-dB-auz"/>
                     </constraints>
@@ -29,30 +28,12 @@
                         <action selector="clickAction:" destination="-1" eventType="touchUpInside" id="KR4-mM-ajS"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pf-8m-0bg">
-                    <rect key="frame" x="20" y="540" width="560" height="40"/>
-                    <animations/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" id="yt8-jS-onP"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                    <state key="normal" title="返回">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="backAction:" destination="-1" eventType="touchUpInside" id="Mu6-Yt-PPM"/>
-                    </connections>
-                </button>
             </subviews>
-            <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="vTq-jG-FHY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="225" id="59R-ot-yyX"/>
-                <constraint firstAttribute="bottom" secondItem="0pf-8m-0bg" secondAttribute="bottom" constant="20" id="fiW-Yz-m3e"/>
-                <constraint firstAttribute="trailing" secondItem="0pf-8m-0bg" secondAttribute="trailing" constant="20" id="rRA-tx-eBu"/>
                 <constraint firstAttribute="trailing" secondItem="vTq-jG-FHY" secondAttribute="trailing" constant="20" id="vAC-g9-oNJ"/>
                 <constraint firstItem="vTq-jG-FHY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="xeW-5K-MBe"/>
-                <constraint firstItem="0pf-8m-0bg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="zmL-Rn-Xhn"/>
             </constraints>
         </view>
     </objects>
