@@ -21,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"NSThread 加载图片";
+    
     self.imageView.alpha = 0.0;
     
     /* NSThread： 

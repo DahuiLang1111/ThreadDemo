@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"GCD 任务";
     // Do any additional setup after loading the view from its nib.
 }
 

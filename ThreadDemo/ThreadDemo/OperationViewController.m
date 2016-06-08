@@ -20,6 +20,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.navigationItem.title = @"NSOperation 加载图片";
+    
     self.imageView.alpha = 0.0;
     
     /* NSOperation

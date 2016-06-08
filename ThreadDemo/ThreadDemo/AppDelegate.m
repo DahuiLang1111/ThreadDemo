@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "FirstViewController.h"
-#import "GCDViewController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,10 +19,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[GCDViewController alloc] initWithNibName:@"GCDViewController" bundle:nil];
+    ViewController *rootVc = [[ViewController alloc] init];
+    UINavigationController *navVc = [[UINavigationController alloc] initWithRootViewController:rootVc];
+    self.window.rootViewController =navVc;
     
     [self.window makeKeyAndVisible];
-    
     return YES;
 }
 
